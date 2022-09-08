@@ -1,0 +1,66 @@
+
+div.title {
+    position: right;
+    padding: 50;
+}
+
+body { 
+    background-color: #fef8e6
+}
+
+div.imageCrop {
+padding:30px
+
+}
+
+div.frameProfilePic {
+position: relative;
+background: #7BCECC;
+border-radius: 30px;
+margin: auto
+
+}
+img.roundImg {
+    border-radius: 30px;
+}
+
+
+.flex-rectangle{
+    width: 5%;
+    background: #bc5148;
+    
+}
+.flex-rectangle:before{
+    content: "";
+    display: block;
+ 
+}
+
+h3 {
+    text-align:center;
+    text-decoration: underline;
+}
+
+h4 {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.aboutInfo {
+    text-align:center;
+}
+
+div.textFrame {
+    background: #7BCECC;
+    border-radius: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    }
+
+
+
+
