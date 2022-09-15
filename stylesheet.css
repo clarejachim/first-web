@@ -1,11 +1,36 @@
+html{
+    scroll-behavior: smooth;
+}
+
+#section1 {
+    height: 100vh;
+    background-color: pink;
+  }
+  
+  #section2 {
+    height: 100vh;
+    background-color: yellow;
+    justify-content: below;
+  }
+
+  #intro{
+    background-color:pink;
+    height: 100vh;
+  }
+
+  #readMore{
+    background-color:green;
+  }
 
 div.title {
-    position: right;
-    padding: 50;
+    background-color: red;
+    text-align: center;
+    font-size: 2cm;
 }
 
 body { 
-    background-color: #fef8e6
+    background-color: #fef8e6;
+    
 }
 
 div.imageCrop {
@@ -22,23 +47,14 @@ margin: auto
 }
 img.roundImg {
     border-radius: 30px;
+
 }
 
-
-.flex-rectangle{
-    width: 5%;
-    background: #bc5148;
-    
-}
-.flex-rectangle:before{
-    content: "";
-    display: block;
- 
-}
 
 h3 {
     text-align:center;
     text-decoration: underline;
+    font-size: x-large;
 }
 
 h4 {
@@ -61,6 +77,33 @@ div.textFrame {
     padding-top: 10px;
     }
 
+p { 
+    padding-right: 30%;
+    padding-left: 30%;
+	margin-top: 20px; 
+	text-align: justify;
+    text-indent: 30px;
+    font-size: large;
+}
 
+.arrow {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.roundImg2 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main2 {
+    text-align: center;
+}
+
+.sectionTitle{
+    text-align: center;
+    
+}
 
 
