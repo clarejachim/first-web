@@ -23,7 +23,6 @@ html{
   }
 
 div.title {
-    background-color: red;
     text-align: center;
     font-size: 2cm;
 }
@@ -99,6 +98,7 @@ p {
 
 .main2 {
     text-align: center;
+    height: 100vh;
 }
 
 .sectionTitle{
