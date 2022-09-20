@@ -2,19 +2,22 @@ html{
     scroll-behavior: smooth;
 }
 
+
 #section1 {
     height: 100vh;
-    background-color: pink;
+
   }
   
   #photoGallery {
     height: 100vh;
-    background-color: yellow;
-    justify-content: below;
+  
   }
 
   #intro{
-    height: 250vh;
+    height: 160vh;
+    background-image: url("images/retro-bg.jpg");
+    background-size: contain;
+    overflow-y: scroll;
   }
 
   #readMore{
@@ -24,10 +27,23 @@ html{
     overflow-y: scroll;
   }
 
+  footer{
+    height: 30vh;
+    background-image: url("images/footer-bg.jpg");
+    background-size: contain;
+    overflow-y: scroll;
+  }
+
 
 div.title {
+  background-image: url("images/butterflis-title.png");
+  background-size: contain;
     text-align: center;
+    background-repeat: no-repeat;
     font-size: 2.5cm;
+    padding-left:5%;
+    padding-right:5%
+    
 }
 
 body { 
@@ -54,12 +70,30 @@ img.roundImg {
     border-radius: 30px;
 
 }
+h1{
+  margin-top: 0%;
+  font-family: arbotek, sans-serif;
+  font-weight: 900;
+  font-size: 12cm;
+  color: #bc5148;
+}
 
+h2{
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+  font-size: 1.6cm;
+  color: #bc5148;
+
+}
 
 h3 {
     text-align:center;
     text-decoration: underline;
     font-size: xx-large;
+   
+    
 }
 
 h4 {
@@ -67,23 +101,29 @@ h4 {
     text-decoration: underline;
     margin-top: 10px;
     margin-bottom: 5px;
-    font-size: x-large;
+    font-family: arbotek, sans-serif;
+    font-weight: 900;
+    font-size: 2.3cm;
+    color: #bc5148;
 }
 
 .aboutInfo {
     text-align:center;
-    font-size: x-large;
+    font-size: 1.6cm;
+  
 }
 
 div.textFrame {
-    outline-color: #7BCECC;
+    background-color: #7BCECC;
+    outline-color: #30b2b0;
     outline-style: solid;
     outline-width: thick;
     border-radius: 60px;
-    padding-left: 20%;
-    padding-right: 20%;
-    padding-bottom: 20%;
-    padding-top: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+    padding-top: 10%;
+    margin-bottom: 5%;
     }
 
 p { 
@@ -92,12 +132,14 @@ p {
 	margin-top: 20px; 
 	text-align: justify;
     text-indent: 30px;
+    font-size: 1cm;
 }
 
 .arrow {
     display: block;
     margin-left: auto;
     margin-right: auto;
+
    
 }
 
@@ -108,7 +150,7 @@ p {
 
 .main2 {
     text-align: center;
-    height: 100vh;
+    height: 130vh;
    
 }
 
@@ -120,19 +162,18 @@ p {
 
 .sectionTitle{
     text-align: center;
-    font-size: 10ch;
+    font-size: 8cm;
+    font-family: arbotek, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #bc5148;
     
 }
 
-
-table.center {
-    margin-left: auto; 
-    margin-right: auto;
-  }
-
-
   .aboutText {
     text-align:left;
+    
+     
   }
 
   .rotateImg {
@@ -160,17 +201,47 @@ table.center {
 
   .iconCrop {
     padding-top: 5%;
-     width: 64px; 
+     width: 216px; 
      height: auto;
   }
 
-  table.style{
-    border-collapse: collapse;
-   
-  }
 
   .rotateImg5{
     transform: rotate(-50deg);
   }
 
+  .centerEdge {
+    display: block;
+    padding-left: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+  .center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+  }
+
+
+  .container {
+    display: flex;
+}
+
+.container__half {
+    flex: 1;
+}
+
+.subheading {
+  padding-bottom: 50px;
+  text-align:center;
+  font-size: 1.6cm;
+  padding-top:0%
+
+}
+
+  
   
