@@ -7,24 +7,27 @@ html{
     background-color: pink;
   }
   
-  #section2 {
+  #photoGallery {
     height: 100vh;
     background-color: yellow;
     justify-content: below;
   }
 
   #intro{
-    background-color:pink;
-    height: 100vh;
+    height: 250vh;
   }
 
   #readMore{
-    background-color:green;
+    height: 100vh;
+    background-image: url("images/pattern-bg.jpg");
+    background-size: contain;
+    overflow-y: scroll;
   }
+
 
 div.title {
     text-align: center;
-    font-size: 2cm;
+    font-size: 2.5cm;
 }
 
 body { 
@@ -33,7 +36,10 @@ body {
 }
 
 div.imageCrop {
-padding:30px
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
 
 }
 
@@ -41,7 +47,7 @@ div.frameProfilePic {
 position: relative;
 background: #7BCECC;
 border-radius: 30px;
-margin: auto
+margin: auto;
 
 }
 img.roundImg {
@@ -53,7 +59,7 @@ img.roundImg {
 h3 {
     text-align:center;
     text-decoration: underline;
-    font-size: x-large;
+    font-size: xx-large;
 }
 
 h4 {
@@ -61,19 +67,23 @@ h4 {
     text-decoration: underline;
     margin-top: 10px;
     margin-bottom: 5px;
+    font-size: x-large;
 }
 
 .aboutInfo {
     text-align:center;
+    font-size: x-large;
 }
 
 div.textFrame {
-    background: #7BCECC;
+    outline-color: #7BCECC;
+    outline-style: solid;
+    outline-width: thick;
     border-radius: 60px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 20%;
+    padding-top: 20%;
     }
 
 p { 
@@ -82,13 +92,13 @@ p {
 	margin-top: 20px; 
 	text-align: justify;
     text-indent: 30px;
-    font-size: large;
 }
 
 .arrow {
     display: block;
     margin-left: auto;
     margin-right: auto;
+   
 }
 
 .roundImg2 {
@@ -99,11 +109,68 @@ p {
 .main2 {
     text-align: center;
     height: 100vh;
+   
+}
+
+.main3 {
+    height: 100vh;
+    text-align: center;
+
 }
 
 .sectionTitle{
     text-align: center;
+    font-size: 10ch;
     
 }
 
 
+table.center {
+    margin-left: auto; 
+    margin-right: auto;
+  }
+
+
+  .aboutText {
+    text-align:left;
+  }
+
+  .rotateImg {
+    transform: rotate(-30deg);
+  }
+
+  .rotateImg2{
+    transform: scaleX(-1);
+
+   
+  }
+
+  .rotateImg3 {
+    transform: rotate(110deg);
+    height: 500px;
+    width: auto;
+    padding-left:30%;
+    padding-bottom: 0%;
+  
+  }
+
+  .rotateImg4 {
+    transform: rotate(-40deg);
+  }
+
+  .iconCrop {
+    padding-top: 5%;
+     width: 64px; 
+     height: auto;
+  }
+
+  table.style{
+    border-collapse: collapse;
+   
+  }
+
+  .rotateImg5{
+    transform: rotate(-50deg);
+  }
+
+  
